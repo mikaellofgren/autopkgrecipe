@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Cocktail Maverick disk image and builds a package.</string>
+    <string>Downloads latest Cocktail Mountain Lion disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.mikaellofgren.pkg.CocktailME</string>
+    <string>com.github.mikaellofgren.pkg.CocktailML</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mikaellofgren.pkg.CocktailME</string>
+	<string>com.github.mikaellofgren.pkg.CocktailML</string>
     <key>Process</key>
     <array>
         <dict>
