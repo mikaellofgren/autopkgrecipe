@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>CocktailME</string>
+        <string>Cocktail</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>apps/%NAME%</string>
+        <string>apps</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -30,14 +30,10 @@
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
-    <key>ParentRecipe</key>
-    <string>com.github.mikaellofgren.pkg.CocktailME</string>
+	<key>ParentRecipe</key>
+	<string>com.github.mikaellofgren.pkg.CocktailME</string>
     <key>Process</key>
-    <array>
-        <dict>
-            <key>Processor</key>
-            <string>MunkiPkginfoMerger</string>
-        </dict>
+	<array>
         <dict>
             <key>Arguments</key>
             <dict>

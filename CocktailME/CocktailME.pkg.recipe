@@ -13,8 +13,8 @@
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
-    <key>ParentRecipe</key>
-    <string>com.github.mikaellofgren.pkg.CocktailME</string>
+	<key>ParentRecipe</key>
+	<string>com.github.mikaellofgren.pkg.CocktailME</string>
     <key>Process</key>
     <array>
         <dict>
@@ -53,19 +53,6 @@
         </dict>
         <dict>
             <key>Processor</key>
-            <string>PkgInfoCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>template_path</key>
-                <string>%RECIPE_DIR%/PackageInfoTemplate</string>
-                <key>infofile</key>
-                <string>%RECIPE_CACHE_DIR%/PackageInfo</string>
-                <key>pkgtype</key>
-                <string>flat</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
             <string>PkgCreator</string>
             <key>Arguments</key>
             <dict>
@@ -76,9 +63,7 @@
                     <key>pkgdir</key>
                     <string>%RECIPE_CACHE_DIR%</string>
                     <key>id</key>
-                    <string>com.github.mikaellofgren.pkg.CocktailME</string>
-                    <key>resources</key>
-                    <string>%RECIPE_DIR%/Resources</string>
+                    <string>%bundleid%</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
