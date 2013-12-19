@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads latest Cocktail Lion Edition.
-</string>
+    <string>Downloads latest Cocktail Lion Edition.</string>
     <key>Identifier</key>
     <string>com.github.mikaellofgren.pkg.CocktailLion</string>
     <key>Input</key>
@@ -12,27 +11,27 @@
         <key>NAME</key>
         <string>CocktailLion</string>
         <key>DOWNLOAD_URL</key>
-                <string>http://usa.maintain.se/CocktailLionEdition.dmg</string>
-                </dict>
+        <string>http://usa.maintain.se/CocktailLionEdition.dmg</string>
+    </dict>
     <key>MinimumVersion</key>
-    <string>0.2</string>
+    <string>0.2.0</string>
     <key>Process</key>
     <array>
         <dict>
-                        <key>Processor</key>
-                        <string>URLDownloader</string>
-                        <key>Arguments</key>
-                        <dict>
-                                <key>url</key>
-                                <string>%DOWNLOAD_URL%</string>
-                                <key>filename</key>
+            <key>Processor</key>
+            <string>URLDownloader</string>
+            <key>Arguments</key>
+            <dict>
+                <key>url</key>
+                <string>%DOWNLOAD_URL%</string>
+                <key>filename</key>
                 <string>%NAME%.dmg</string>
-                        </dict>
-                </dict>
-                <dict>
-                        <key>Processor</key>
-                        <string>EndOfCheckPhase</string>
-                </dict>
-        </array>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
 </dict>
 </plist>
