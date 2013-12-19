@@ -10,7 +10,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Cocktail</string>
+        <string>CocktailML</string>
         <key>DOWNLOAD_URL</key>
                 <string>http://usa.maintain.se/CocktailMLE.dmg</string>
                 </dict>
