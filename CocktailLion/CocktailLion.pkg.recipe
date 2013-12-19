@@ -14,7 +14,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mikaellofgren.pkg.CocktailLion</string>
+	<string>com.github.mikaellofgren.download.CocktailLion</string>
     <key>Process</key>
     <array>
         <dict>

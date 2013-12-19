@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Cocktail Lion Edition.</string>
     <key>Identifier</key>
-    <string>com.github.mikaellofgren.pkg.CocktailLion</string>
+    <string>com.github.mikaellofgren.download.CocktailLion</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
