@@ -6,7 +6,7 @@
     <string>Downloads latest Cocktail Mountain Lion Edition.
 </string>
     <key>Identifier</key>
-    <string>com.github.mikaellofgren.pkg.CocktailML</string>
+    <string>com.github.mikaellofgren.download.CocktailML</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

@@ -6,7 +6,7 @@
     <string>Downloads latest Cocktail Mavericks Edition.
 </string>
     <key>Identifier</key>
-    <string>com.github.mikaellofgren.pkg.CocktailME</string>
+    <string>com.github.mikaellofgren.download.CocktailME</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
