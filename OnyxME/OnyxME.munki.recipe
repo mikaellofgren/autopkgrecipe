@@ -33,7 +33,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mikaellofgren.download.CocktailME</string>
+	<string>com.github.mikaellofgren.download.OnyxME</string>
     <key>Process</key>
 	<array>
         <dict>
