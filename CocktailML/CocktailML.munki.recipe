@@ -17,9 +17,14 @@
             <key>catalogs</key>
             <array>
                 <string>testing</string>
+                <string>production</string>
             </array>
+            <key>category</key>
+	<string>Utilities</string>
             <key>description</key>
             <string>Cocktail is a general purpose utility for OS X that lets you clean, repair and optimize your Mac.</string>
+            <key>developer</key>
+	<string>Maintain</string>
             <key>display_name</key>
             <string>CocktailML</string>
             <key>minimum_os_version</key>
@@ -28,6 +33,7 @@
 			<string>10.8.99</string>
             <key>name</key>
             <string>%NAME%</string>
+            <key>postinstall_script</key>
             <key>unattended_install</key>
             <true/>
         </dict>
