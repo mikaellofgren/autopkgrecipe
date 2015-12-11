@@ -33,8 +33,6 @@
 			<string>10.9.99</string>
             <key>name</key>
             <string>%NAME%</string>
-            <key>postinstall_script</key>
-            <string>#!/bin/bash</string>
             <key>unattended_install</key>
             <true/>
         </dict>
