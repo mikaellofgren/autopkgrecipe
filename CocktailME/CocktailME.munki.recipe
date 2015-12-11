@@ -34,6 +34,7 @@
             <key>name</key>
             <string>%NAME%</string>
             <key>postinstall_script</key>
+            <string>#!/bin/bash</string>
             <key>unattended_install</key>
             <true/>
         </dict>
