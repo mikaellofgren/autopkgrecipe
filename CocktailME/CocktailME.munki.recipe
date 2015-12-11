@@ -11,7 +11,7 @@
         <key>NAME</key>
         <string>CocktailME</string>
         <key>MUNKI_REPO_SUBDIR</key>
-        <string>Apps</string>
+        <string>Apps/Cocktail</string>
         <key>pkginfo</key>
         <dict>
             <key>catalogs</key>
@@ -20,14 +20,14 @@
                 <string>production</string>
             </array>
             <key>category</key>
-	<string>Utilities</string>
+			<string>Utilities</string>
             <key>description</key>
             <string>Cocktail is a general purpose utility for OS X that lets you clean, repair and optimize your Mac.</string>
             <key>developer</key>
-	<string>Maintain</string>
+			<string>Maintain</string>
             <key>display_name</key>
             <string>CocktailME</string>
-              <key>minimum_os_version</key>
+            <key>minimum_os_version</key>
             <string>10.9</string>
             <key>maximum_os_version</key>
 			<string>10.9.99</string>
