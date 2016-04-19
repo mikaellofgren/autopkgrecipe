@@ -46,9 +46,9 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/Cocktail.app</string>
+                <string>%pathname%/Webroot SecureAnywhere.app</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Cocktail.app</string>
+                <string>%pkgroot%/Applications/Webroot SecureAnywhere.app</string>
             </dict>
         </dict>
         <dict>

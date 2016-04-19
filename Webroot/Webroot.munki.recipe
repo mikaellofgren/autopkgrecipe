@@ -30,9 +30,10 @@
             <true/>
             <key>postinstall_script</key>
     <string>#!/bin/sh
-#insert serialkeycode
-KEY=@wsa_keycode@
-sudo "/Applications/Webroot SecureAnywhere.app/Contents/MacOS/Webroot SecureAnywhere" install -keycode=@wsa_keycode@ -group=@groupname@ -silent
+wsa_keycode=INSERT_KEYCODE_HERE
+groupname=INSERT_GROUP_HERE
+
+sudo "/Applications/Webroot SecureAnywhere.app/Contents/MacOS/Webroot SecureAnywhere" install -keycode="$wsa_keycode" -group="$groupname" -silent
 
 wait 30
 
