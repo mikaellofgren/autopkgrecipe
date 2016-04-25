@@ -35,8 +35,6 @@ groupname=INSERT_GROUP_HERE
 
 sudo "/Applications/Webroot SecureAnywhere.app/Contents/MacOS/Webroot SecureAnywhere" install -keycode="$wsa_keycode" -group="$groupname" -silent
 
-wait 30
-
 exit 0
     </string>
         </dict>
