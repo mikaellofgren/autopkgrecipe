@@ -35,7 +35,7 @@ groupname=INSERT_GROUP_HERE
 
 sudo "/Applications/Webroot SecureAnywhere.app/Contents/MacOS/Webroot SecureAnywhere" install -keycode="$wsa_keycode" -group="$groupname" -silent
 # needs to shutdown to finish installscript
-sudo /bin/bash -c 'sleep 20 && killall -9 "Webroot SecureAnywhere" &'
+sudo /bin/bash -c 'sleep 20 &amp;&amp; killall -9 "Webroot SecureAnywhere" &amp;'
 exit 0
     </string>
     <key>preuninstall_script</key>
