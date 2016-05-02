@@ -18,8 +18,12 @@
             <array>
                 <string>testing</string>
             </array>
+             <key>category</key>
+			<string>Antivirus</string>
             <key>description</key>
             <string>Webroot Antivirus Software</string>
+            <key>developer</key>
+			<string>Webroot</string>
             <key>display_name</key>
             <string>Webroot</string>
             <key>minimum_os_version</key>
