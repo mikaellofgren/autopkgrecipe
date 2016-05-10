@@ -14,6 +14,8 @@
         <string>Apps</string>
         <key>pkginfo</key>
         <dict>
+        <key>blocking_applications</key>
+	<array/>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
@@ -42,6 +44,22 @@ sudo "/Applications/Webroot SecureAnywhere.app/Contents/MacOS/Webroot SecureAnyw
 sudo /bin/bash -c 'sleep 20 &amp;&amp; killall -9 "Webroot SecureAnywhere" &amp;'
 exit 0
     </string>
+    <key>preinstall_script</key>
+	<string>#!/bin/sh
+# needs to remove old version to update with keycode
+sudo killall -9 "Webroot SecureAnywhere"
+sudo killall -9 WSDaemon
+sudo killall -9 WfDaemon
+sudo launchctl unload /Library/LaunchDaemons/com.webroot.security.mac.plist
+sudo kextunload /System/Library/Extensions/SecureAnywhere.kext
+sudo rm /usr/local/bin/WSDaemon
+sudo rm /usr/local/bin/WFDaemon
+sudo rm -rf /System/Library/Extensions/SecureAnywhere.kext
+sudo rm -rf "/Applications/Webroot SecureAnywhere.app"
+sudo rm /Library/LaunchAgents/com.webroot.WRMacApp.plist
+sudo rm /Library/LaunchDaemons/com.webroot.security.mac.plist
+sudo rm -rf /Library/Application\ Support/Webroot
+exit 0</string>
     <key>preuninstall_script</key>
 	<string>#!/bin/sh
 sudo killall -9 "Webroot SecureAnywhere"
