@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Cocktail Sierra disk image and imports into Munki.</string>
     <key>Identifier</key>
-    <string>com.github.mikaellofgren.munki.Sierra</string>
+    <string>com.github.mikaellofgren.munki.CocktailSierra</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

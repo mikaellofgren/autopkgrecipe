@@ -6,7 +6,7 @@
     <string>Downloads latest Cocktail Sierra Edition.
 </string>
     <key>Identifier</key>
-    <string>com.github.mikaellofgren.download.Sierra</string>
+    <string>com.github.mikaellofgren.download.CocktailSierra</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
