@@ -11,14 +11,15 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/%NAME%</string>
+		<string>Apps/Cocktail</string>
 		<key>NAME</key>
-		<string>Cocktail</string>
+		<string>CocktailSierra</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
+				<string>production</string>
 			</array>
 			<key>category</key>
 			<string>Utilities</string>
@@ -28,6 +29,8 @@
 			<string>Maintain</string>
 			<key>display_name</key>
 			<string>CocktailSierra</string>
+			<key>icon_name</key>
+			<string>Cocktail.png</string>
 			 <key>minimum_os_version</key>
             <string>10.12</string>
              <key>maximum_os_version</key>
