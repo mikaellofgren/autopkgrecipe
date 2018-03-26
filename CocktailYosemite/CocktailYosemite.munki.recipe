@@ -21,6 +21,8 @@
 				<string>testing</string>
 				<string>production</string>
 			</array>
+			<key>category</key>
+			<string>Utilities</string>
 			<key>description</key>
 			<string>Cocktail is a general purpose utility for OS X that lets you clean, repair and optimize your Mac.</string>
 			<key>developer</key>
