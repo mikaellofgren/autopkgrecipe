@@ -9,7 +9,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/Insidersoftware/</string>
+		<string>apps/insidersoftware/</string>
 		<key>NAME</key>
 		<string>Fontagent</string>
 	<key>pkginfo</key>
@@ -20,6 +20,8 @@
 			</array>
 			<key>category</key>
 			<string>Font Management</string>
+			<key>icon_name</key>
+	<string>FontAgent8.png</string>
 			<key>description</key>
 			<string>Fontagent is one of the world’s smartest font managers.</string>
 			<key>developer</key>
@@ -28,8 +30,35 @@
 	<string>FontAgent 8</string>
 			<key>name</key>
 			<string>%NAME%</string>
+			<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.insidersoftware.v8.fontagent</string>
+			<key>CFBundleName</key>
+			<string>FontAgent</string>
+			<key>CFBundleShortVersionString</key>
+			<string>%VERSION%</string>
+			<key>minosversion</key>
+			<string>10.11</string>
+			<key>path</key>
+			<string>/Applications/FontAgent 8/FontAgent.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.11</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/bash
+"/Applications/FontAgent 8/Uninstaller.app/Contents/MacOS/Uninstaller"
+exit 0</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>
