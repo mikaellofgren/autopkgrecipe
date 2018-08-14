@@ -16,28 +16,29 @@
 		<dict>
 			<key>catalogs</key>
 			<array>
-				<string>testing</string>
+			<string>testing</string>
 			</array>
 			<key>category</key>
 			<string>Font Management</string>
 			<key>icon_name</key>
-	<string>FontAgent8.png</string>
+			<string>FontAgent8.png</string>
 			<key>description</key>
 			<string>Fontagent is one of the world’s smartest font managers.</string>
 			<key>developer</key>
 			<string>Insider Software</string>
-				<key>display_name</key>
-	<string>FontAgent 8</string>
+			<key>display_name</key>
+			<string>FontAgent 8</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>installs</key>
-	<array>
-		<dict>
+			<array>
+			<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.insidersoftware.v8.fontagent</string>
 			<key>CFBundleName</key>
 			<string>FontAgent</string>
 			<key>CFBundleShortVersionString</key>
+			<string></string>
 			<key>minosversion</key>
 			<string>10.11</string>
 			<key>path</key>
