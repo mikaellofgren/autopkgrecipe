@@ -32,6 +32,10 @@
 			<string>Fontagent9new.png</string>
 			<key>minimum_os_version</key>
 			<string>10.11</string>
+			<key>blocking_applications</key>
+			<array>
+			<string>FontAgent.app</string>
+			</array>
 			<key>postinstall_script</key>
 	<string>#!/bin/bash
 PLIST="/Library/Preferences/InsiderSoftware/v9/com.insidersoftware.v9.common.plist"
