@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/%NAME%</string>
+		<string>Apps/insidersoftware/%NAME%</string>
 		<key>NAME</key>
 		<string>FontAgent</string>
 		<key>pkginfo</key>
@@ -22,14 +22,31 @@
 			</array>
 			<key>description</key>
 			<string>Font management and repair utility.</string>
+			<key>category</key>
+			<string>Font Management</string>
 			<key>developer</key>
 			<string>Insider Software Inc.</string>
 			<key>display_name</key>
-			<string>FontAgent</string>
+			<string>FontAgent 9</string>
+			<key>icon_name</key>
+			<string>Fontagent9new.png</string>
+			<key>minimum_os_version</key>
+			<string>10.11</string>
+			<key>postinstall_script</key>
+	<string>#!/bin/bash
+PLIST="/Library/Preferences/InsiderSoftware/v9/com.insidersoftware.v9.common.plist"
+/usr/bin/defaults write "$PLIST" /Library/Preferences/InsiderSoftware/v9/com.insidersoftware.v9.common.plist cleanCachesType
+exit 0</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
 			<true/>
+			<key>uninstall_method</key>
+	<string>uninstall_script</string>
+	<key>uninstall_script</key>
+	<string>#!/bin/bash
+"/Applications/FontAgent 9/Uninstaller.app/Contents/MacOS/Uninstaller"
+exit 0</string>
 		</dict>
 	</dict>
 	<key>MinimumVersion</key>

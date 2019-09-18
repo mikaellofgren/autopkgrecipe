@@ -29,11 +29,6 @@
 			<string>SparkleUpdateInfoProvider</string>
 		</dict>
 		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>filename</key>
-				<string>%NAME%-%version%.tgz</string>
-			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
@@ -44,8 +39,6 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>archive_path</key>
-				<string>%pathname%</string>
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>purge_destination</key>
@@ -58,7 +51,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/FontAgent.app</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/FontAgent.pkg</string>
 				<key>requirement</key>
 				<string>identifier "com.insidersoftware.v9.fontagent" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "936VDEB3YQ"</string>
 			</dict>
