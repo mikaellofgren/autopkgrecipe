@@ -35,7 +35,7 @@
 			<key>postinstall_script</key>
 	<string>#!/bin/bash
 PLIST="/Library/Preferences/InsiderSoftware/v9/com.insidersoftware.v9.common.plist"
-/usr/bin/defaults write "$PLIST" /Library/Preferences/InsiderSoftware/v9/com.insidersoftware.v9.common.plist cleanCachesType
+/usr/bin/defaults write "$PLIST" /Library/Preferences/InsiderSoftware/v9/com.insidersoftware.v9.common cleanCachesType
 exit 0</string>
 			<key>name</key>
 			<string>%NAME%</string>
