@@ -3,9 +3,9 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest version of F-SecureMacProtection and imports into Munki</string>
+        <string>Downloads the latest version of FSecureMacProtection and imports into Munki</string>
         <key>Identifier</key>
-        <string>com.github.mikaellofgren.munki.F-SecureMacProtection</string>
+        <string>com.github.mikaellofgren.munki.FSecureMacProtection</string>
         <key>Input</key>
         <dict>
             <key>MUNKI_REPO_SUBDIR</key>
@@ -41,7 +41,7 @@
         <key>MinimumVersion</key>
         <string>0.5.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mikaellofgren.download.F-SecureMacProtection.recipe</string>
+        <string>com.github.mikaellofgren.download.FSecureMacProtection.recipe</string>
         <key>Process</key>
         <array>
             <dict>

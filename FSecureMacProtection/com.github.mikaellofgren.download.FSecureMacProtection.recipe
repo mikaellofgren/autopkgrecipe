@@ -3,9 +3,9 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads the latest version of F-Secure Mac Protection</string>
+        <string>Downloads the latest version of FSecure Mac Protection</string>
         <key>Identifier</key>
-        <string>com.github.mikaellofgren.download.F-SecureMacProtection</string>
+        <string>com.github.mikaellofgren.download.FSecureMacProtection</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
