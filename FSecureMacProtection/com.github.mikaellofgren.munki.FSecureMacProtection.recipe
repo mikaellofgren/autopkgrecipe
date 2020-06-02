@@ -93,13 +93,13 @@
             <dict>
                 <key>Arguments</key>
                 <dict>
-                    <key>source</key>
-                    <string>%RECIPE_CACHE_DIR%/downloads/F-Secure_PSB1_Mac_Installer.mpkg</string>
-                    <key>target</key>
+                    <key>pkg_path</key>
                     <string>%RECIPE_CACHE_DIR%/F-Secure_PSB1_Mac_Installer-%version%.mpkg</string>
+                    <key>source_pkg</key>
+                    <string>&gt;%RECIPE_CACHE_DIR%/downloads/F-Secure_PSB1_Mac_Installer.mpkg</string>
                 </dict>
                 <key>Processor</key>
-                <string>FileMover</string>
+                <string>PkgCopier</string>
             </dict>
             <dict>
                 <key>Arguments</key>
