@@ -32,10 +32,21 @@
                 <string>10.12.0</string>
                 <key>unattended_install</key>
                 <true></true>
+                <key>blocking_applications</key>
+                <array></array>
+                <key>postinstall_script</key>
+                <string>#!/bin/bash
+ACTIVATOR="/usr/local/f-secure/bin/activator"
+if [ -f "$ACTIVATOR" ]; then
+/usr/local/f-secure/bin/activator --subscription-key "INSERT_KEY_HERE_IN_YOUR_OVERRIDE"
+# The customized default profile is assigned to the device after you activate the subscription.
+/usr/local/f-secure/bin/activator --profile-id "INSERT_PROFILE_ID_HERE_IN_YOUR_OVERRIDE"
+else
+echo "Couldnt find $ACTIVATOR"
+fi
+exit</string>
                 <key>uninstall_method</key>
-                <string>uninstall_script</string>
-                <key>uninstall_script</key>
-                <string></string>
+                <string>/Applications/F-Secure/uninstall.app/Contents/Resources/UninstallStage2.app/Contents/Resources/uninstall_script</string>
             </dict>
         </dict>
         <key>MinimumVersion</key>
