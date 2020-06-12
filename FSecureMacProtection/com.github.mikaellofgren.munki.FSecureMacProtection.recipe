@@ -36,11 +36,14 @@
                 <array></array>
                 <key>postinstall_script</key>
                 <string>#!/bin/bash
+# https://emea.psb.f-secure.com/#/c9653487/profiles/?comput?er-protection/edit/18062053/generalSettings. 
+ 
+# In the above example, the first value ("c9653487") stands for the company profile and the second value ("18062053") for the profile ID.
+# In this case, it will apply a desired profile to the first upcoming status report and after that activate the product.
+
 ACTIVATOR="/usr/local/f-secure/bin/activator"
 if [ -f "$ACTIVATOR" ]; then
-/usr/local/f-secure/bin/activator --subscription-key "INSERT_KEY_HERE_IN_YOUR_OVERRIDE"
-# The customized default profile is assigned to the device after you activate the subscription.
-/usr/local/f-secure/bin/activator --profile-id "INSERT_PROFILE_ID_HERE_IN_YOUR_OVERRIDE"
+/usr/local/f-secure/bin/activator --subscription-key "INSERT_KEY_HERE_IN_YOUR_OVERRIDE" --profile-id "INSERT_PROFILE_ID_HERE_IN_YOUR_OVERRIDE"
 else
 echo "Couldnt find $ACTIVATOR"
 fi
