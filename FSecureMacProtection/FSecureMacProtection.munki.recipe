@@ -55,7 +55,7 @@ exit</string>
         <key>MinimumVersion</key>
         <string>0.5.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mikaellofgren.download.FSecureMacProtection.recipe</string>
+        <string>com.github.mikaellofgren.download.FSecureMacProtection</string>
         <key>Process</key>
         <array>
             <dict>
