@@ -35,7 +35,7 @@
         <key>MinimumVersion</key>
         <string>1.0.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.mikaellofgren.download.Cocktail</string>
+        <string>com.github.mikaellofgren.download.CocktailBigSur</string>
         <key>Process</key>
         <array>
             <dict>
